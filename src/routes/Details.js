@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 const Details = ({ toDo }) => {
   // console.log(props);
-  console.log(toDo.text);
+  // console.log(toDo.text);
   return (
     <>
       <h1>{toDo?.text}</h1>
